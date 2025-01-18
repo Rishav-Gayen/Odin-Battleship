@@ -1,0 +1,59 @@
+.gamesboard-container {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.game-board {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.destroyer {
+    background-color: purple;
+}
+
+.submarine {
+    background-color: green;
+}
+
+.patrol-boat {
+    background-color: brown;
+}
+
+.battleship {
+    background-color: orange;
+}
+
+.carrier {
+    background-color: blue;
+}
+
+
+.block {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.miss {
+    background-color: grey;
+    pointer-events: none;
+}
+
+.hit {
+    background-color: red;
+    pointer-events: none;
+}
+
+.hide {
+    background-color: transparent;
+}
+
+
+
+
