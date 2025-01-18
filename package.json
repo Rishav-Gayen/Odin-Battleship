@@ -1,0 +1,17 @@
+{
+  "name": "odin-battleship",
+  "version": "1.0.0",
+  "description": "This repository is home to the Odin battleship project in the Odin Project's Javascript course",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
